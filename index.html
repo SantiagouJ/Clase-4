@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+
+<body>
+    <form method="post">
+        <label for="input-text">Name</label>
+        <input name="input-text" type="text" required autofocus>
+        <br />
+        <br />
+        <label for="input-mail">Mail</label>
+        <input name="input-mail" type="email" required>
+        <br />
+        <br />
+        <label for="input-url">Url</label>
+        <input name="input-url" type="url" placeholder="Type your URL">
+        <br />
+        <br />
+        <label for="input-date">Date</label>
+        <input name="input-date" type="date">
+        <br />
+        <br />
+        <label for="input-datetime">Date time</label>
+        <input name="input-datetime" type="datetime-local">
+        <br />
+        <br />
+        <label for="input-number">Number</label>
+        <input name="input-number" type="number" min="-10" max="10">
+        <br />
+        <br />
+        <label for="input-phone">Phone</label>
+        <input name="input-phone" type="tel" required>
+        <br />
+        <br />
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
